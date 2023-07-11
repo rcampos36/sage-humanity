@@ -1,0 +1,145 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Shippori Mincho', serif;
+	font-weight: 700;
+}
+
+/* buttons */
+.red-btn {
+	color: white;
+	background-color: #FF6D6D;
+	padding: 0.75rem 2.5rem;
+	border-radius: 9999px;
+	width: fit-content;
+}
+
+.black-btn {
+	color: white;
+	background-color: #2e4049;
+	padding: 0.75rem 2.5rem;
+	border-radius: 9999px;
+	width: fit-content;
+}
+
+.white-btn {
+	color: #2e4049;
+	background-color: #ffffff;
+	padding: 0.75rem 2.5rem;
+	border-radius: 9999px;
+	width: fit-content;
+}
+
+.text-btn {
+	text-decoration: underline;
+	width: fit-content;
+}
+
+/* bg color */
+.red-bg {
+	background-color: #FF6D6D;
+}
+
+.black-bg {
+	background-color: #2e4049;
+	color: #ffffff;
+}
+
+.green-bg {
+	background-color: #77D7D3;
+}
+
+/* custom classes */
+.yellowtail {
+	font-family: 'Yellowtail', cursive;
+}
+
+.sue-ellen-font {
+	font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.shippori {
+	font-family: 'Shippori Mincho', serif;
+}
+
+/* menu */
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu li {
+	padding: 0 1.5rem;
+	border-right: 1px solid #d1dbe0;
+}
+
+.menu li:last-child {
+	border-right: none;
+}
+
+.menu li a {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.banner-image {
+	background-size: 100%;
+}
+
+.banner-title {
+	font-family: 'Shippori Mincho', serif;
+	font-weight: 700;
+}
+
+.gform_title {
+	font-size: 38px;
+	margin-bottom: 1rem;
+}
+
+.ginput_container input,
+.ginput_container textarea {
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+
+.gform_button {
+	color: white;
+    background-color: #fff;
+	color: #404040;
+    padding: 0.75rem 2.5rem;
+    border-radius: 9999px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.project-content .project-info {
+	transition: all 2s ease-out;
+	display: none;
+}
+
+.project-content:hover > .project-info {
+	display: flex;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #FF6D6D;
+	cursor: pointer;
+}
+
+.tag {
+	padding: .5rem 1rem;
+	border-radius: 50px;
+	background-color: #E85353;
+}
+
+.fa-location-dot {
+	color: #ff6d6d;
+}
